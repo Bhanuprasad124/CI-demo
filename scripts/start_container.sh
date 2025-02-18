@@ -5,4 +5,5 @@ set -e
 docker pull bhanuyadav124/simple-flask-app
 
 # Run the Docker image as a container
+# this is just a comment
 docker run -d -p 8000:8000 bhanuyadav124/simple-flask-app
